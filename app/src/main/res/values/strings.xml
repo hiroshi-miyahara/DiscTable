@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">DiscTable</string>
+	<string name="txt_title">名称</string>
+	<string name="finder_btn_find">検索</string>
+	<string name="finder_btn_clear">消去</string>
+	<string name="class_name">タイトル</string>
+	<string name="class_media">メディア</string>
+	<string name="class_type">タイプ</string>
+	<string name="class_kind">種類</string>
+	<string name="class_box">箱/棚</string>
+	<string name="class_sub">枝番</string>
+	<string name="btn_new">新規作成</string>
+	<string name="dlog_title1">新規ディスク情報入力</string>
+	<string name="dlog_title2">ディスク情報修正</string>
+	<string name="btn_ok">OK</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="btn_close">Close</string>
+	<string name="btn_clear">Clear</string>
+	<string name="txt_dlog_ext">ファイルの読み込み</string>
+	<string name="txt_dlog_title">エラー</string>
+	<string name="txt_dlog_nofile">ファイルが見つからない</string>
+	<string name="txt_dlog_msg">入力文字列が許容できない</string>
+	<string name="txt_del_title">項目の削除</string>
+	<string name="txt_del_msg">を削除しますか</string>
+	<string name="txt_del_all">全項目の削除</string>
+	<string name="txt_quit_title">アプリケーションの終了</string>
+	<string name="txt_msg_quit">本当に終了しますか？</string>
+	<string name="select_all">ALL</string>
+	<string name="menu_read">ファイルの読み込み</string>
+	<string name="menu_jump">指定行へのジャンプ</string>
+	<string name="menu_delete">全データ消去</string>
+	<string name="menu_quit">アプリの終了</string>
+	<string name="jump_first">先頭</string>
+	<string name="jump_last">最終</string>
+	<string name="jump_num">指定</string>
+	<string name="dlog_jump_title">指定した番号へのジャンプ</string>
+	<string name="dlog_jump_msg">番号を入力</string>
+	<string name="dlog_find_title">文字列検索</string>
+	<string name="dlog_find_msg">文字列を入力</string>
+
+	<string-array name="spin_media">
+		<item>DVD</item>
+		<item>BD</item>
+		<item>DVDR</item>
+		<item>BDR</item>
+		<item>CPRM</item>
+		<item>CD</item>
+		<item>CDS</item>
+		<item>CDR</item>
+		<item>PC</item>
+		<item>PS2</item>
+		<item>PSP</item>
+		<item>DVDG</item>
+	</string-array>
+
+	<string-array name="spin_type">
+		<item>JP</item>
+		<item>US</item>
+		<item>FR</item>
+		<item>REC</item>
+		<item>COPY</item>
+	</string-array>
+
+	<string-array name="spin_kind">
+		<item>その他</item>
+		<item>映画</item>
+		<item>邦画</item>
+		<item>アニメ</item>
+		<item>ドラマ</item>
+		<item>記録</item>
+		<item>娯楽</item>
+		<item>音楽</item>
+		<item>ゲーム</item>
+	</string-array>
+	
+</resources>

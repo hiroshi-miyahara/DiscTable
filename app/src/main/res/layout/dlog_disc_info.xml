@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".DiscTable" >
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:text="@string/class_name" />
+
+		<EditText
+			android:id="@+id/dlog_txt_name"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:inputType="text" />
+		
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:text="@string/class_media" />
+
+		<Spinner
+			android:id="@+id/dlog_spin_media"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:entries="@array/spin_media"
+			android:drawSelectorOnTop="true" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:text="@string/class_type" />
+
+		<Spinner
+			android:id="@+id/dlog_spin_type"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:entries="@array/spin_type"
+			android:drawSelectorOnTop="true" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:text="@string/class_kind" />
+
+		<Spinner
+			android:id="@+id/dlog_spin_kind"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:entries="@array/spin_kind"
+			android:drawSelectorOnTop="true" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:text="@string/class_box" />
+
+		<EditText
+			android:id="@+id/dlog_txt_box"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="text" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:text="@string/class_sub" />
+
+		<EditText
+			android:id="@+id/dlog_txt_sub"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="text" />
+
+	</LinearLayout>
+
+</LinearLayout>

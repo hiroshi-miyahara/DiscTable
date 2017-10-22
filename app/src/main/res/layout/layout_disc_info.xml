@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".DiscTable" >
+
+	<TextView
+		android:id="@+id/disc_no"
+		android:layout_width="36dip"
+		android:layout_height="wrap_content"
+		android:textColor="#aaaaaa"
+		android:gravity="right"
+		android:textSize="12sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+	
+	<TextView
+		android:id="@+id/disc_name"
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:textColor="#FFFFFF"
+		android:textSize="18sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+	
+	<TextView
+		android:id="@+id/disc_media"
+		android:layout_width="52dip"
+		android:layout_height="wrap_content"
+		android:textColor="#ddffff"
+		android:textSize="16sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+
+	<TextView
+		android:id="@+id/disc_type"
+		android:layout_width="52dip"
+		android:layout_height="wrap_content"
+		android:textColor="#ffddff"
+		android:textSize="16sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+	
+	<TextView
+		android:id="@+id/disc_kind"
+		android:layout_width="52dip"
+		android:layout_height="wrap_content"
+		android:textColor="#ffffdd"
+		android:textSize="16sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+	
+	<TextView
+		android:id="@+id/disc_box"
+		android:layout_width="32dip"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textSize="16sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+
+	<TextView
+		android:id="@+id/disc_sub"
+		android:layout_width="28dip"
+		android:layout_height="wrap_content"
+		android:textColor="#eeeeee"
+		android:textSize="16sp"
+		android:paddingBottom="4.0px"
+		android:paddingRight="8.0px" />
+	
+</LinearLayout>
